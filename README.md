@@ -1,105 +1,74 @@
-# 0.0._Executable_Physics
+# Executable Physics
 
-## Axiomatic Primitives & Derived Ontology
+**The 11-Book Mathematical Framework for Intent Tensor Theory**
 
-> *"Curvature does not resist — it remembers."*
+Derives commercial mechanics from four axiomatic primitives as computable physics.
 
-This repository contains the complete axiomatic foundation of **Business Field Theory** — the mathematical substrate underlying Auto-Workspace-AI and Intent Tensor Theory applications.
+## The Four Primitives (Book 0A)
 
----
+| Symbol | Name | Definition |
+|--------|------|------------|
+| Φ | Scalar Potential | The field itself. Values are collapsed states. |
+| ∇Φ | Ordering Gradient | Direction of collapse flow. Preference asymmetry. |
+| σ | Irreducible Residue | What cannot be undone. Accumulated irreversibility. |
+| ρ_q | Boundary Charge | Where collapse terminates. Frozen value at limits. |
 
-## What This Is
+**Rule**: Everything else is DERIVED, not assumed.
 
-**Executable Physics** is the formal derivation of commercial mechanics from first principles. Unlike traditional business frameworks that start with intuitions about markets, agents, and transactions, this work builds upward from four axiomatic primitives:
+## The Collapse Dynamics Equation
 
-| Symbol | Name | Meaning |
-|--------|------|---------|
-| **Φ** | Scalar Potential | Possibility of recursive distinction |
-| **∇Φ** | Ordering Gradient | Preference asymmetry (not motion) |
-| **σ** | Irreducible Residue | Memory of misalignment |
-| **ρ_q** | Boundary Charge | Value frozen at termination surfaces |
+$$\frac{\partial \Phi}{\partial t} = D \nabla^2 \Phi - \lambda (\Phi - \Phi_{\text{lock}}) + \eta \cdot \dot{\sigma}$$
 
-Everything else — identity, time, resources, exchange, markets, firms, personnel — is **derived**, not assumed.
+## The Six Fans (Δ₁-Δ₆)
 
----
+| Fan | Operator | Physical Meaning |
+|-----|----------|------------------|
+| Δ₁ | ∇Φ | Tension alignment, translation |
+| Δ₂ | ∇×(∇Φ) | Curl phase memory, rotation |
+| Δ₃ | +∇²Φ | Expansion, diffusion, tiling |
+| Δ₄ | -∇²Φ | Compression, locking, cropping |
+| Δ₅ | ∂Φ/∂t | Emergence, iteration control |
+| Δ₆ | Φ₀ | Identity, background anchor |
 
-## Complete Book Structure
+## Books
 
-### Foundation Layer (Pre-Commercial)
+0. **Book 0A**: Axioms and Primitives
+1. **Book 1**: Scalar Dynamics
+2. **Book 2**: Gradient Flow
+3. **Book 3**: Cluster Formation
+4. **Book 4**: Residue Mechanics
+5. **Book 5**: Selection Pressure
+6. **Book 6**: Boundary Theory
+7. **Book 7**: Flow Dynamics
+8. **Book 8**: Lock Mechanics
+9. **Book 9**: Firms and Markets
+10. **Book 10**: Personnel Dynamics
+11. **Book 11**: Integration
 
-| Book | Title | Content | Status |
-|------|-------|---------|--------|
-| **0A** | [Pre-Commercial Substrate](axiomatic_primitives/book_0A/) | Axioms: Φ, ∇Φ, σ, ρ_q | ✅ LOCKED |
-| **0B** | [Derived Ontology](axiomatic_primitives/book_0B/) | Identity, Lock, Memory, Delta | ✅ LOCKED |
-| **1** | [Primitives](axiomatic_primitives/book_1/) | Units, allowed operations, measurement | ✅ ACTIVE |
-| **N** | [Notation & Units](book_N_notation/) | Master translation canon | ✅ NEW |
+## New Documentation
 
-### Structural Layer
+### docs/ITT_DERIVATION_GAPS.md
+Identifies concepts that were "smuggled" (imported without derivation) and provides rigorous derivations from the four primitives.
 
-| Book | Title | Content | Status |
-|------|-------|---------|--------|
-| **2** | [Statics](book_2_statics/) | Equilibrium, strain, failure without motion | ✅ NEW |
-| **3** | [Dynamics](book_3_dynamics/) | Time emergence, transition, conservation | ✅ NEW |
-| **4** | [Interactions](book_4_interactions/) | Coupling, boundary contact, composite identity | ✅ NEW |
+### docs/BOOK_0A_SUPPLEMENT.md
+Full theorem-proof structure for all derived concepts:
+- Objects as Laplacian-sign regions
+- Enclosure via winding numbers
+- Shape as eigenspectrum
+- Size→Color from energy minimization
+- Period via Fourier analysis
 
-### Economic Layer
+## Applications
 
-| Book | Title | Content | Status |
-|------|-------|---------|--------|
-| **5** | [Decisions & Selection](book_5_selection/) | Collapse selection, proto-agency | ✅ NEW |
-| **6** | [Resources & Exchange](book_6_exchange/) | Conservation, transfer, accounting | ✅ NEW |
-| **7** | [Measurement & Units](book_7_measurement/) | Quantification, money, price | ✅ NEW |
-| **8** | [Markets & Dynamics](book_8_markets/) | Supply, demand, cycles | ✅ NEW |
+- **ARC-AGI Solver**: [0.0_ARC_AGI](https://github.com/Sensei-Intent-Tensor/0.0_ARC_AGI) — 6/6 tasks solved with pure ITT
+- **Business Math**: [0.0_business_math_foundation_principals](https://github.com/Sensei-Intent-Tensor/0.0_business_math_foundation_principals)
 
-### Application Layer
+## Parent Framework
 
-| Book | Title | Content | Status |
-|------|-------|---------|--------|
-| **9** | [Organizations & Firms](book_9_firms/) | σ-suppression, hierarchy, roles | ✅ NEW |
-| **10** | [Personnel Theory](book_10_personnel/) | Humans as σ-processors | ✅ NEW |
-| **11** | [AWA Engineering](book_11_awa/) | Applied Business Field Theory | ✅ NEW |
-
----
-
-## Key Results
-
-### Time Is Derived, Not Assumed
-```
-τ(k) := σ_k
-```
-Time is the monotonic ordering of accumulated irreversibility.
-
-### Value Is Frozen Misalignment
-```
-ρ_q := σ(τ_Δ)
-```
-Value exists only at boundaries where recursion terminates.
-
-### Firms Are Markets Turned Inward
-A firm is a σ-suppression structure that replaces price-mediated exchange with internal lock-mediated coordination.
-
-### Burnout Is σ Overflow
-```
-Role-Human match requires: σ_absorption ≥ σ_production
-```
+Intent Tensor Theory Institute: [intent-tensor-theory](https://github.com/intent-tensor-theory)
 
 ---
 
-## The Four Math Layers
+**No ego. Just math.**
 
-| Layer | Name | Function |
-|-------|------|----------|
-| 0 | GlyphMath | Meaning (ITT native) |
-| 1 | Theoretical | Structure (field theory) |
-| 2 | Classical | Relations (tensor calculus) |
-| 3 | Standard | Calculation (derivatives) |
-
----
-
-## License
-
-MIT License
-
----
-
-**HAIL MATH.**
+HAIL MATH.
